@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5501/api"; // Your backend API base URL
+const API_URL = "http:13.61.156.204:5501/api"; // Your backend API base URL
 
 // User Authentication
 export const login = (email, password) => axios.post(`${API_URL}/user/login`, { email, password });
