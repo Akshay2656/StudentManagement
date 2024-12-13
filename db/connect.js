@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // MongoDB URI
-const uri = "mongodb+srv://CallAPI:AyNGYCMSK6VBv39H@cluster0.sx3pgl8.mongodb.net/Cluster0?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://CallAPI:<Passward>@cluster0.sx3pgl8.mongodb.net/Cluster0?retryWrites=true&w=majority&appName=Cluster0";
 
 // Function to connect to MongoDB
 const connectDB = async () => {
